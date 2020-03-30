@@ -12,8 +12,8 @@ module.exports = (sequelize, DataTypes) => {
   }, {
     // for fields to access underscored db columns.
     underscored: true,
-    tableName: 'routine',
-    timestamps: false,    
+    tableName: 'routine_exercise',
+    timestamps: false,
   });
   routineExercise.associate = function(models) {
     // associations can be defined here
